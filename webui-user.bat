@@ -3,7 +3,7 @@
 set PYTHON=
 set GIT=
 set VENV_DIR=
-set COMMANDLINE_ARGS=
+set COMMANDLINE_ARGS=--xformers --pin-shared-memory --cuda-malloc --lora-dir "E:/AI/Lora" --embeddings-dir "E:/AI/embeddings" --ckpt-dir "E:/AI/models/"
 
 @REM Uncomment following code to reference an existing A1111 checkout.
 @REM set A1111_HOME=Your A1111 checkout dir
